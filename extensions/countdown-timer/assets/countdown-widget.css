@@ -1,0 +1,25 @@
+.countdown-widget {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: #f6f6f6;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.countdown-widget.urgent {
+  animation: pulse 1s infinite;
+  background-color: #fee;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 rgba(255, 0, 0, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 rgba(255, 0, 0, 0.5);
+  }
+}

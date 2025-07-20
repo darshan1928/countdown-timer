@@ -1,0 +1,7 @@
+{
+  "countdown_timer": {
+    "add_block_label": "Countdown Timer",
+    "heading": "Countdown Timer",
+    "threshold_label": "Urgency threshold (minutes)"
+  }
+}

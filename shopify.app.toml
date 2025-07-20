@@ -1,3 +1,24 @@
-# This file stores configurations for your Shopify app.
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
+client_id = "ff3e16e69182a5f56ad826ca4eb223c2"
+name = "countdown-timer"
+handle = "countdown-timer-88"
+application_url = "https://dial-ocean-d-luxembourg.trycloudflare.com"
+embedded = true
+
+[webhooks]
+api_version = "2025-07"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
 scopes = "write_products"
+
+[auth]
+redirect_urls = ["https://dial-ocean-d-luxembourg.trycloudflare.com/auth/callback", "https://dial-ocean-d-luxembourg.trycloudflare.com/auth/shopify/callback", "https://dial-ocean-d-luxembourg.trycloudflare.com/api/auth/callback"]
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+

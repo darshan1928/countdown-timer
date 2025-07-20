@@ -1,0 +1,23 @@
+{
+  "name": "{{ 'countdown_timer.add_block_label' | t }}",
+  "target": "section",
+  "settings": [
+    {
+      "type": "product",
+      "id": "product",
+      "label": "{{ 'countdown_timer.heading' | t }}"
+    },
+    {
+      "type": "number",
+      "id": "thresholdMins",
+      "label": "{{ 'countdown_timer.threshold_label' | t }}",
+      "default": 5
+    }
+  ],
+  "presets": [
+    {
+      "name": "{{ 'countdown_timer.add_block_label' | t }}",
+      "category": "Promotions"
+    }
+  ]
+}

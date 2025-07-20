@@ -1,0 +1,12 @@
+{% comment %} blocks/countdown-timer/countdown-timer.liquid {% endcomment %}
+<div
+  id="countdown-timer-root-{{ block.id }}"
+  data-settings='{
+    "productId": "{{ block.settings.product.id }}",
+    "shopDomain": "{{ shop.permanent_domain }}",
+    "thresholdMins": {{ block.settings.thresholdMins }}
+  }'
+></div>
+
+<script type="module" src="{{ 'countdown-widget.js' | asset_url }}"></script>
+<link rel="stylesheet" href="{{ 'countdown-widget.css' | asset_url }}" />
