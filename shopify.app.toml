@@ -3,7 +3,7 @@
 client_id = "ff3e16e69182a5f56ad826ca4eb223c2"
 name = "countdown-timer"
 handle = "countdown-timer-88"
-application_url = "https://dial-ocean-d-luxembourg.trycloudflare.com"
+application_url = "https://mutual-biol-trackbacks-install.trycloudflare.com"
 embedded = true
 
 [webhooks]
@@ -14,7 +14,7 @@ api_version = "2025-07"
 scopes = "write_products"
 
 [auth]
-redirect_urls = ["https://dial-ocean-d-luxembourg.trycloudflare.com/auth/callback", "https://dial-ocean-d-luxembourg.trycloudflare.com/auth/shopify/callback", "https://dial-ocean-d-luxembourg.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://mutual-biol-trackbacks-install.trycloudflare.com/auth/callback", "https://mutual-biol-trackbacks-install.trycloudflare.com/auth/shopify/callback", "https://mutual-biol-trackbacks-install.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false
