@@ -1,0 +1,9 @@
+name = "Countdown Timer"
+type = "theme_app_extension"
+api_version = "2024-01"
+description = "Product countdown timer"
+
+[build]
+entry_points = [
+    "blocks/countdown-timer/countdown-timer.liquid"
+]
